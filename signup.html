@@ -10,24 +10,15 @@
 </head>
 <body>
         <div class="card text-center">
-          <div class="card-header">
-            <h1>Welcome to my website sign up for my news letter..</h1>
-          </div>
-          <form action="" method="get">
+          <form action="/Welcome" method="post">
           <div class="card-body">
             <img class="logo" src="images/logo.png" alt="Logo Image">
             <h5 class="card-title">Sign Up Now..!</h5>
-            <div class="md-2">
-            <input class="inputStart"  type="text" placeholder="First Name">
-          </div>
-            <div class="md-2">
-            <input class="inputcenter" type="text" placeholder="Last Name">
-          </div>
-            <div class="md-2">
-            <input class="inputEnd"    type="email" placeholder="Email">
-          </div>
+            <input class="inputStart form-control"  name="fname"  placeholder="First Name">
+            <input class="inputcenter form-control" name="lname"  placeholder="Last Name">
+            <input class="inputEnd form-control"    name="email"  placeholder="Email">
           <br>
-            <a href="#" class="btn btn-primary">Submit</a>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </div>
         </form>
         </div>

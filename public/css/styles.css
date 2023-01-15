@@ -1,28 +1,26 @@
 /* .card-body{
     padding: 30px;
 } */
-input{
-    padding: 0;
-    margin: 0;
-    border-width: 1px;
-}
+
 .inputStart{
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    border-style: solid;
 }
 .inputcenter{
     border-radius: 0;
 }
 .inputEnd{
-    border-style: solid;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
 
+}
+.form-control{
+    margin-top: 1.5px;
+    text-align: center;
 }
 a{
     margin-top: 10px;
@@ -30,4 +28,11 @@ a{
 .logo{
     height: 100px;
     width: 200px;
+    margin: 2%;
+}
+.card{
+    margin-top: 10%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 10%;
 }
