@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <table id="example">
+        <thead>
+            <tr>
+                <th>email</th>
+                <th>credit_card_details</th>
+                <th>hex_color</th>
+                <th>dummy data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>steve42@dickens.com</td>
+                <td>#5cc011</td>
+                <td>2892691761</td>
+                <td>ANG</td>
+            </tr>
+            <tr>
+                <td>steve42@dickens.com</td>
+                <td>#5cc011</td>
+                <td>2892691761</td>
+                <td>ANG</td>
+            </tr>
+            <tr>
+                <td>steve42@dickens.com</td>
+                <td>#5cc011</td>
+                <td>2892691761</td>
+                <td>ANG</td>
+            </tr>
+            <tr>
+                <td>steve42@dickens.com</td>
+                <td>#5cc011</td>
+                <td>2892691761</td>
+                <td>ANG</td>
+            </tr>
+            <tr>
+                <td>steve42@dickens.com</td>
+                <td>#5cc011</td>
+                <td>2892691761</td>
+                <td>ANG</td>
+            </tr>
+            <tr>
+                <td>steve42@dickens.com</td>
+                <td>#5cc011</td>
+                <td>2892691761</td>
+                <td>ANG</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.js"> </script>
+    <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"> </script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"> </script>
+    <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+    <script>
+
+            $('#example').DataTable({
+                dom: 'Bfrtip',
+                buttons: [
+                    'csv', 'excel', 'pdf', 'print'
+                ]
+            });
+    </script>
+</body>
+
+</html>
